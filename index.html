@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Journey Of Book </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+    <div class="navbar">
+        <h1>My Journey Of Book</h1>
+    </div>
+    <div class="container">
+        <div class="life-container">
+            <h2>It's End's With Us</h2>
+            <h5>collen hoover</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic iure dolores quae culpa nobis aspernatur sed. Eligendi deleniti consectetur excepturi accusamus quisquam nostrum? Iusto esse, ipsam itaque possimus commodi consequuntur!
+            </p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+    <div class= "popupoverlay"></div>
+    <div class="popupbox">
+        <h2>Add book</h2>
+        <form>
+            <input type="text" placeholder="book title" id="title">
+            <input type="text" placeholder="book author" id="author">
+            <textarea placeholder="book description" id="description"></textarea>
+            <button id="add-book">Add</button>
+            <button id="cancel-book">cancel</button>
+        </form>
+    </div>
+    <button class="add" id="add-popup">+</button>
+    <script src="script.js"></script>
+</body>
+</html>
